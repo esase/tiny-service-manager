@@ -96,7 +96,7 @@ class ServiceManager implements ContainerInterface
      *
      * @return bool
      */
-    public function has($id): bool
+    public function has($id)
     {
         if (isset($this->sharedServices[$id])
             || isset($this->discreteServices[$id])

@@ -6,10 +6,13 @@
   "keywords": [
     "esase",
     "tinyframework",
+    "microservices",
     "framework",
     "lightweight",
-    "service manager",
+    "servicemanager",
     "container",
+    "servicelocator",
+    "psr",
     "di"
   ],
   "support": {
