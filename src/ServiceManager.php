@@ -53,7 +53,7 @@ class ServiceManager implements ContainerInterface
     /**
      * @param  string  $id
      *
-     * @return object
+     * @return mixed
      */
     public function get($id)
     {
