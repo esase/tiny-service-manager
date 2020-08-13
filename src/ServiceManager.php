@@ -17,24 +17,23 @@ use Tiny\ServiceManager\Exception\ServiceNotFoundException;
 use Throwable;
 use Closure;
 
-
 class ServiceManager implements ContainerInterface
 {
 
     /**
      * @var array
      */
-    private $sharedServices = [];
+    private array $sharedServices = [];
 
     /**
      * @var array
      */
-    private $discreteServices = [];
+    private array $discreteServices = [];
 
     /**
      * @var array
      */
-    private $sharedInstances;
+    private array $sharedInstances;
 
     /**
      * ServiceManager constructor.
