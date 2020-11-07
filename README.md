@@ -71,7 +71,7 @@ class A {
 
 ```
 
-now we can easily test the "A" class injecting a mocked version of the "B"
+now we can easily test the `A` class injecting a mocked version of the `B`
 
 ```php
 $serviceA = new A(new MockedB());
