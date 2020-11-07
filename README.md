@@ -71,7 +71,13 @@ class A {
 
 ```
 
-For details please check a look the documentation link below.
+now we can easily test the "A" class injecting a mocked version of the "B"
+
+```php
+$serviceA = new A(new MockedB());
+```
+
+For more details please check a look the documentation link below.
 
 
 ## Installation
