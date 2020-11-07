@@ -3,7 +3,7 @@
 [![Build Status](https://travis-ci.com/esase/tiny-service-manager.svg?branch=master)](https://travis-ci.com/github/esase/tiny-service-manager/builds)
 [![Coverage Status](https://coveralls.io/repos/github/esase/tiny-service-manager/badge.svg?branch=master)](https://coveralls.io/github/esase/tiny-service-manager?branch=master)
 
-**Tiny/Service Manager** - it's a very simple realization of `DI` (dependency injection) 
+**Tiny/Service Manager** - it's a very simple realization of [DI](https://en.wikipedia.org/wiki/Dependency_injection) (dependency injection) 
 container with a clean and understandable Api. 
 (There are no any extra dependencies and it's very small).
 
@@ -11,7 +11,7 @@ container with a clean and understandable Api.
 Differently speaking it's the one of the most important part in web applications,
 which stores and produces any kind of services for you (`controllers`, `services`, `utilities`, etc).
 
-Furthermore it follows to  a one of the `SOLID` principle (dependency injection or dependency inversion).
+Furthermore it follows to  a one of the [SOLID](https://en.wikipedia.org/wiki/SOLID). principle (dependency injection or dependency inversion).
 Which stands for - you should not create objects directly in other objects, because of some 
 difficulties in unit testing and maintaining  of embedded classes. 
 Lets check a look a couple of examples:
